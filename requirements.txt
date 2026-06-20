@@ -1,0 +1,24 @@
+# Direct dependencies for Auto-Research-Molprop.
+# These are loose lower bounds for portability. For the exact, tested environment
+# (Python 3.12) see requirements-lock.txt.
+
+# Core scientific stack: the MapLight-style baseline pipeline, the benchmarks,
+# and regenerating the results in results/.
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+scikit-learn>=1.3
+joblib>=1.3
+rdkit>=2023.9
+catboost>=1.2
+xgboost>=2.0
+lightgbm>=4.0
+matplotlib>=3.7
+filelock>=3.12
+tqdm>=4.65
+PyTDC>=0.4          # TDC ADMET benchmark group
+
+# --- Optional, not needed for the results verification in results/ ---
+# claude-agent-sdk>=0.2   # only to run the closed-loop agent search
+# torch>=2.0              # only for the ChemBERTa pretrained-baseline comparison
+# polaris-lib             # only to re-fetch the Polaris adme-fang data

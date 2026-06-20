@@ -1,0 +1,52 @@
+{
+  "freesolv": {
+    "metric": "rmse",
+    "val": 1.7658638172036474,
+    "test": 0.7754263104592809
+  },
+  "esol": {
+    "metric": "rmse",
+    "val": 0.6523517918405939,
+    "test": 0.7505555869968813
+  },
+  "bace": {
+    "metric": "roc-auc",
+    "val": 0.8873383903439721,
+    "test": 0.83
+  },
+  "hiv": {
+    "metric": "roc-auc",
+    "val": 0.8073542579983212,
+    "test": 0.7557810995237222
+  },
+  "tox21_nr_ar": {
+    "metric": "roc-auc",
+    "val": 0.843740008951979,
+    "test": 0.7137289724236594
+  },
+  "tox21_sr_mmp": {
+    "metric": "roc-auc",
+    "val": 0.8901211260459827,
+    "test": 0.9256499046471947
+  },
+  "tox21_sr_p53": {
+    "metric": "roc-auc",
+    "val": 0.844138291411866,
+    "test": 0.814538295817547
+  },
+  "sider_hepatobiliary": {
+    "metric": "roc-auc",
+    "val": 0.71615925058548,
+    "test": 0.7501993620414673
+  },
+  "sider_reproductive": {
+    "metric": "roc-auc",
+    "val": 0.6951631701631701,
+    "test": 0.761762360446571
+  },
+  "clintox_ct_tox": {
+    "metric": "roc-auc",
+    "val": 0.9675572519083968,
+    "test": 0.9565727699530515
+  }
+}

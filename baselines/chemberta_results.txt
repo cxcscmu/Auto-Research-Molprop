@@ -1,0 +1,28 @@
+ChemBERTa baseline  (seyonec/ChemBERTa-zinc-base-v1)
+Task                                       Type    RDKit  ChemBERTa        Δ
+----------------------------------------------------------------------------
+  caco2_wang                               reg    0.3393     0.4969  -0.1576
+  hia_hou                                  cls    0.6339     0.6120  -0.0219
+  pgp_broccatelli                          cls    0.9068     0.8690  -0.0378
+  bioavailability_ma                       cls    0.6685     0.6612  -0.0073
+  lipophilicity_astrazeneca                reg    0.5444     0.6943  -0.1499
+  solubility_aqsoldb                       reg    0.6883     1.0345  -0.3462
+  bbb_martins                              cls    0.8435     0.8195  -0.0239
+  ppbr_az                                  reg   10.4697    11.2582  -0.7886
+  vdss_lombardo                            reg    4.9654     4.1976  +0.7678
+  cyp2d6_veith                             cls    0.8512     0.7872  -0.0640
+  cyp3a4_veith                             cls    0.9042     0.8567  -0.0475
+  cyp2c9_veith                             cls    0.8733     0.8298  -0.0435
+  cyp2d6_substrate_carbonmangels           cls    0.6353     0.7166  +0.0813
+  cyp3a4_substrate_carbonmangels           cls    0.6490     0.5668  -0.0822
+  cyp2c9_substrate_carbonmangels           cls    0.5667     0.5490  -0.0176
+  half_life_obach                          reg   22.8590    22.0722  +0.7868
+  clearance_microsome_az                   reg   31.5004    33.7550  -2.2546
+  clearance_hepatocyte_az                  reg   37.1932    41.4517  -4.2585
+  herg                                     cls    0.8361     0.7917  -0.0444
+  ames                                     cls    0.7807     0.7160  -0.0647
+  dili                                     cls    0.8893     0.8409  -0.0484
+  ld50_zhu                                 reg    0.4684     0.5743  -0.1058
+----------------------------------------------------------------------------
+Win rate vs RDKit: 3/22 tasks
+Total elapsed: 1245.8s

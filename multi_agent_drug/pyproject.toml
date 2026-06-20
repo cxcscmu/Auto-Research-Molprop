@@ -1,0 +1,29 @@
+[project]
+name = "multi-agent-drug"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "PyTDC==1.1.15",
+    "setuptools<70",
+    "rdkit>=2026.3.2",
+    "scikit-learn>=1.8.0",
+    "xgboost>=3.2.0",
+    "lightgbm>=4.6.0",
+    "numpy>=1.26",
+    "pandas>=2.0",
+    "filelock",
+    "requests",
+    "tqdm",
+    "seaborn",
+    "openpyxl",
+    "fuzzywuzzy",
+    "huggingface_hub",
+    "pydantic",
+]
+
+# Note: PyTDC 1.1.15 installed with --no-deps to avoid cellxgene-census==1.15.0
+# conflict. Only ADMET data loading is used; single-cell/genomics features are
+# not needed and their deps (cellxgene-census, tiledbsoma, transformers) are omitted.
+
+[tool.uv]
+python = ".venv_drug/bin/python"

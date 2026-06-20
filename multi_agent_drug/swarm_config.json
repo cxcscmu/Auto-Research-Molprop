@@ -1,0 +1,6 @@
+{
+  "model": {
+    "default": "claude-sonnet-4-6",
+    "overrides": {}
+  }
+}

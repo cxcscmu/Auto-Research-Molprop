@@ -1,0 +1,112 @@
+{
+  "caco2_wang": {
+    "metric": "mae",
+    "val": 0.3207279036185173,
+    "test": 0.31790574389195536
+  },
+  "hia_hou": {
+    "metric": "roc-auc",
+    "val": 0.98125,
+    "test": 0.9761316872427984
+  },
+  "pgp_broccatelli": {
+    "metric": "roc-auc",
+    "val": 0.9229484732824428,
+    "test": 0.9286856838176486
+  },
+  "bioavailability_ma": {
+    "metric": "roc-auc",
+    "val": 0.7896193771626298,
+    "test": 0.7266378450282673
+  },
+  "lipophilicity_astrazeneca": {
+    "metric": "mae",
+    "val": 0.45728365019833717,
+    "test": 0.5036492347360717
+  },
+  "solubility_aqsoldb": {
+    "metric": "mae",
+    "val": 0.624912987748663,
+    "test": 0.7581366937194116
+  },
+  "bbb_martins": {
+    "metric": "roc-auc",
+    "val": 0.9062653288740246,
+    "test": 0.911702626641651
+  },
+  "ppbr_az": {
+    "metric": "mae",
+    "val": 9.728682036995984,
+    "test": 7.758625559714047
+  },
+  "vdss_lombardo": {
+    "metric": "spearman",
+    "val": 0.7323749063532872,
+    "test": 0.6820038628039308
+  },
+  "cyp2d6_veith": {
+    "metric": "pr-auc",
+    "val": 0.6968274207629507,
+    "test": 0.7155508851986031
+  },
+  "cyp3a4_veith": {
+    "metric": "pr-auc",
+    "val": 0.8646037419904073,
+    "test": 0.8742344045965718
+  },
+  "cyp2c9_veith": {
+    "metric": "pr-auc",
+    "val": 0.7967159444980407,
+    "test": 0.7838089917817316
+  },
+  "cyp2d6_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "val": 0.6152495834034993,
+    "test": 0.705177062156472
+  },
+  "cyp3a4_substrate_carbonmangels": {
+    "metric": "roc-auc",
+    "val": 0.6811188811188811,
+    "test": 0.6443264014466547
+  },
+  "cyp2c9_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "val": 0.4374938698705578,
+    "test": 0.38391349937538244
+  },
+  "half_life_obach": {
+    "metric": "spearman",
+    "val": 0.41045036478208613,
+    "test": 0.5365744526932036
+  },
+  "clearance_microsome_az": {
+    "metric": "spearman",
+    "val": 0.6898286941922613,
+    "test": 0.5777538665782814
+  },
+  "clearance_hepatocyte_az": {
+    "metric": "spearman",
+    "val": 0.5952588559208961,
+    "test": 0.4388787543737349
+  },
+  "herg": {
+    "metric": "roc-auc",
+    "val": 0.8538461538461539,
+    "test": 0.8832106038291606
+  },
+  "ames": {
+    "metric": "roc-auc",
+    "val": 0.8119226825744513,
+    "test": 0.847659049521236
+  },
+  "dili": {
+    "metric": "roc-auc",
+    "val": 0.8907624633431086,
+    "test": 0.8826086956521738
+  },
+  "ld50_zhu": {
+    "metric": "mae",
+    "val": 0.45527555355024735,
+    "test": 0.5726297637864693
+  }
+}

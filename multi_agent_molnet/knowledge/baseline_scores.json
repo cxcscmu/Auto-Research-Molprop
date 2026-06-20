@@ -1,0 +1,42 @@
+{
+  "freesolv": {
+    "metric": 1.9601765723118012,
+    "task_type": "regression"
+  },
+  "esol": {
+    "metric": 0.6899080075222862,
+    "task_type": "regression"
+  },
+  "bace": {
+    "metric": 0.8850961309097848,
+    "task_type": "classification"
+  },
+  "hiv": {
+    "metric": 0.7923430650125921,
+    "task_type": "classification"
+  },
+  "tox21_nr_ar": {
+    "metric": 0.8306317539484622,
+    "task_type": "classification"
+  },
+  "tox21_sr_mmp": {
+    "metric": 0.8905818847620017,
+    "task_type": "classification"
+  },
+  "tox21_sr_p53": {
+    "metric": 0.844138291411866,
+    "task_type": "classification"
+  },
+  "sider_hepatobiliary": {
+    "metric": 0.7118852459016393,
+    "task_type": "classification"
+  },
+  "sider_reproductive": {
+    "metric": 0.6912587412587413,
+    "task_type": "classification"
+  },
+  "clintox_ct_tox": {
+    "metric": 0.9662101481814099,
+    "task_type": "classification"
+  }
+}

@@ -1,0 +1,7 @@
+model_*.pkl
+__pycache__/
+*.pyc
+*.pyo
+.venv_drug/
+knowledge/baseline_scores.json
+.venv_drug_agent/

@@ -1,0 +1,112 @@
+{
+  "caco2_wang": {
+    "metric": "mae",
+    "val": 0.32439194653167275,
+    "test": 0.32637585107906375
+  },
+  "hia_hou": {
+    "metric": "roc-auc",
+    "val": 0.9802083333333333,
+    "test": 0.9753086419753088
+  },
+  "pgp_broccatelli": {
+    "metric": "roc-auc",
+    "val": 0.9212786259541985,
+    "test": 0.9275526526259665
+  },
+  "bioavailability_ma": {
+    "metric": "roc-auc",
+    "val": 0.772318339100346,
+    "test": 0.7299634186897239
+  },
+  "lipophilicity_astrazeneca": {
+    "metric": "mae",
+    "val": 0.46715199595717294,
+    "test": 0.5172203807532688
+  },
+  "solubility_aqsoldb": {
+    "metric": "mae",
+    "val": 0.6274013004588989,
+    "test": 0.761571312616539
+  },
+  "bbb_martins": {
+    "metric": "roc-auc",
+    "val": 0.9039910813823856,
+    "test": 0.9166275797373358
+  },
+  "ppbr_az": {
+    "metric": "mae",
+    "val": 9.997473005849972,
+    "test": 7.864094346887803
+  },
+  "vdss_lombardo": {
+    "metric": "spearman",
+    "val": 0.7326175225525823,
+    "test": 0.6877502094965497
+  },
+  "cyp2d6_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "val": 0.6631468767986164,
+    "test": 0.7207355077506246
+  },
+  "clearance_microsome_az": {
+    "metric": "spearman",
+    "val": 0.6842756891715567,
+    "test": 0.6019848669183059
+  },
+  "ames": {
+    "metric": "roc-auc",
+    "val": 0.8035489583818799,
+    "test": 0.847584640388494
+  },
+  "clearance_hepatocyte_az": {
+    "metric": "spearman",
+    "val": 0.5740839008223247,
+    "test": 0.4369409774249118
+  },
+  "half_life_obach": {
+    "metric": "spearman",
+    "val": 0.39635059779751536,
+    "test": 0.5189424227351408
+  },
+  "cyp2c9_veith": {
+    "metric": "pr-auc",
+    "val": 0.7951916662690915,
+    "test": 0.7865506318923554
+  },
+  "cyp3a4_veith": {
+    "metric": "pr-auc",
+    "val": 0.8637537849437756,
+    "test": 0.876572213112845
+  },
+  "dili": {
+    "metric": "roc-auc",
+    "val": 0.907624633431085,
+    "test": 0.9065217391304348
+  },
+  "herg": {
+    "metric": "roc-auc",
+    "val": 0.8499013806706115,
+    "test": 0.8811487481590574
+  },
+  "cyp3a4_substrate_carbonmangels": {
+    "metric": "roc-auc",
+    "val": 0.6909090909090909,
+    "test": 0.6253390596745027
+  },
+  "cyp2c9_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "val": 0.48023684873802863,
+    "test": 0.4535298835806322
+  },
+  "cyp2d6_veith": {
+    "metric": "pr-auc",
+    "val": 0.6953726691187463,
+    "test": 0.7137128300561916
+  },
+  "ld50_zhu": {
+    "metric": "mae",
+    "val": 0.45614471906697807,
+    "test": 0.5877638288623035
+  }
+}

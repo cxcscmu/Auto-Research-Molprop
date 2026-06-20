@@ -1,0 +1,18 @@
+{
+  "adme_hlm": {
+    "metric": 0.6784934179607267,
+    "task_type": "regression"
+  },
+  "adme_rlm": {
+    "metric": 0.6985088521240929,
+    "task_type": "regression"
+  },
+  "adme_mdr1": {
+    "metric": 0.7085076194056015,
+    "task_type": "regression"
+  },
+  "adme_solu": {
+    "metric": 0.5396853831041135,
+    "task_type": "regression"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "freesolv": {
+    "metric": "rmse",
+    "unimol_test": 1.6022366428473382,
+    "baseline_val": 1.9601765723118012,
+    "norm_vs_base": 0.18260596240180255
+  },
+  "esol": {
+    "metric": "rmse",
+    "unimol_test": 0.7068844849040689,
+    "baseline_val": 0.6899080075222862,
+    "norm_vs_base": -0.024606871056260724
+  },
+  "bace": {
+    "metric": "roc-auc",
+    "unimol_test": 0.8319491525423729,
+    "baseline_val": 0.8850961309097848,
+    "norm_vs_base": -0.06004656049369738
+  },
+  "hiv": {
+    "metric": "roc-auc",
+    "unimol_test": 0.7781794642154531,
+    "baseline_val": 0.7923430650125921,
+    "norm_vs_base": -0.017875591296951494
+  },
+  "tox21_nr_ar": {
+    "metric": "roc-auc",
+    "unimol_test": 0.6459474125598146,
+    "baseline_val": 0.8306317539484622,
+    "norm_vs_base": -0.2223420192049468
+  },
+  "tox21_sr_mmp": {
+    "metric": "roc-auc",
+    "unimol_test": 0.8873331325905852,
+    "baseline_val": 0.8905818847620017,
+    "norm_vs_base": -0.003647898331420369
+  },
+  "tox21_sr_p53": {
+    "metric": "roc-auc",
+    "unimol_test": 0.778285417130971,
+    "baseline_val": 0.844138291411866,
+    "norm_vs_base": -0.07801195011631638
+  },
+  "sider_hepatobiliary": {
+    "metric": "roc-auc",
+    "unimol_test": 0.650219298245614,
+    "baseline_val": 0.7118852459016393,
+    "norm_vs_base": -0.08662343827328826
+  },
+  "sider_reproductive": {
+    "metric": "roc-auc",
+    "unimol_test": 0.6530103668261563,
+    "baseline_val": 0.6912587412587413,
+    "norm_vs_base": -0.05533148754536828
+  },
+  "clintox_ct_tox": {
+    "metric": "roc-auc",
+    "unimol_test": 0.7969483568075117,
+    "baseline_val": 0.9662101481814099,
+    "norm_vs_base": -0.1751811360007767
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "freesolv": {
+    "metric": "rmse",
+    "unimol": 2.1590737241731457,
+    "baseline": 1.9601765723118012,
+    "norm_vs_baseline": -0.10146899757442175
+  },
+  "esol": {
+    "metric": "rmse",
+    "unimol": 0.7528598169819462,
+    "baseline": 0.6899080075222862,
+    "norm_vs_baseline": -0.09124667169140867
+  },
+  "bace": {
+    "metric": "roc-auc",
+    "unimol": 0.8430418396068889,
+    "baseline": 0.8850961309097848,
+    "norm_vs_baseline": -0.04751381215469612
+  },
+  "tox21_sr_mmp": {
+    "metric": "roc-auc",
+    "unimol": 0.8475647952729952,
+    "baseline": 0.8905818847620017,
+    "norm_vs_baseline": -0.048302228267872706
+  },
+  "sider_hepatobiliary": {
+    "metric": "roc-auc",
+    "unimol": 0.6654566744730679,
+    "baseline": 0.7118852459016393,
+    "norm_vs_baseline": -0.06521917920881645
+  },
+  "clintox_ct_tox": {
+    "metric": "roc-auc",
+    "unimol": 0.5683994528043775,
+    "baseline": 0.9662101481814099,
+    "norm_vs_baseline": -0.41172274595313174
+  },
+  "hiv": {
+    "metric": "roc-auc",
+    "unimol": 0.80002518421789,
+    "baseline": 0.7923430650125921,
+    "norm_vs_baseline": 0.00969544575388673
+  },
+  "tox21_nr_ar": {
+    "metric": "roc-auc",
+    "unimol": 0.8101341198286335,
+    "baseline": 0.8306317539484622,
+    "norm_vs_baseline": -0.02467716171744206
+  },
+  "tox21_sr_p53": {
+    "metric": "roc-auc",
+    "unimol": 0.757447709972178,
+    "baseline": 0.844138291411866,
+    "norm_vs_baseline": -0.1026971318819022
+  },
+  "sider_reproductive": {
+    "metric": "roc-auc",
+    "unimol": 0.6431818181818182,
+    "baseline": 0.6912587412587413,
+    "norm_vs_baseline": -0.06954982296408707
+  }
+}

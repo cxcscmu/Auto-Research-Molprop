@@ -1,0 +1,26 @@
+{
+  "adme_hlm": {
+    "metric": "pearson",
+    "unimol": 0.6486551395830126,
+    "baseline": 0.6784934179607267,
+    "norm_vs_baseline": -0.04397725547197757
+  },
+  "adme_rlm": {
+    "metric": "pearson",
+    "unimol": 0.729388437508478,
+    "baseline": 0.6985088521240929,
+    "norm_vs_baseline": 0.044207865498745745
+  },
+  "adme_mdr1": {
+    "metric": "pearson",
+    "unimol": 0.7341058523556425,
+    "baseline": 0.7085076194056015,
+    "norm_vs_baseline": 0.03612979204305035
+  },
+  "adme_solu": {
+    "metric": "pearson",
+    "unimol": 0.5125468343375443,
+    "baseline": 0.5396853831041135,
+    "norm_vs_baseline": -0.05028586953842651
+  }
+}

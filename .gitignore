@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv*/
+venv/
+env/
+
+# Secrets - never commit (but keep the example template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials.local*
+
+# Model artifacts / large binaries
+*.pkl
+*.joblib
+*.ckpt
+*.pt
+
+# Experiment lineage and runtime state (large, machine-specific; regenerate from the agent loop)
+drug_dev*/
+molnet_dev*/
+polaris_dev*/
+unimol_baseline/
+logs/
+analysis/scratch_figures/
+
+# OS / editor
+.DS_Store
+*Zone.Identifier
+.idea/
+*.iml
+.vscode/
+
+# LaTeX build artifacts (if the manuscript is added later)
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz

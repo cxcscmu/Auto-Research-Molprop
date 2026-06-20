@@ -1,0 +1,178 @@
+{
+  "caco2_wang": {
+    "metric": "mae",
+    "reported_baseline_val": 0.36918503575409833,
+    "baseline_val": 0.36918503575409833,
+    "baseline_test": 0.2916385397455802,
+    "agent_val": 0.3207279036185173,
+    "agent_test": 0.31790574389195536
+  },
+  "hia_hou": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.9802083333333333,
+    "baseline_val": 0.9802083333333333,
+    "baseline_test": 0.9753086419753088,
+    "agent_val": 0.98125,
+    "agent_test": 0.9761316872427984
+  },
+  "pgp_broccatelli": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.9188931297709922,
+    "baseline_val": 0.9188931297709922,
+    "baseline_test": 0.9264196214342842,
+    "agent_val": 0.9229484732824428,
+    "agent_test": 0.9286856838176486
+  },
+  "bioavailability_ma": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.7273356401384081,
+    "baseline_val": 0.7273356401384081,
+    "baseline_test": 0.7362820086464915,
+    "agent_val": 0.7896193771626298,
+    "agent_test": 0.7266378450282673
+  },
+  "lipophilicity_astrazeneca": {
+    "metric": "mae",
+    "reported_baseline_val": 0.49121445765294974,
+    "baseline_val": 0.49121445765294974,
+    "baseline_test": 0.5575568090616275,
+    "agent_val": 0.45728365019833717,
+    "agent_test": 0.5036492347360717
+  },
+  "solubility_aqsoldb": {
+    "metric": "mae",
+    "reported_baseline_val": 0.6485878128528666,
+    "baseline_val": 0.6485878128528666,
+    "baseline_test": 0.7937618162731093,
+    "agent_val": 0.624912987748663,
+    "agent_test": 0.7581366937194116
+  },
+  "bbb_martins": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.8848606465997769,
+    "baseline_val": 0.8848606465997769,
+    "baseline_test": 0.9185428392745467,
+    "agent_val": 0.9062653288740246,
+    "agent_test": 0.911702626641651
+  },
+  "ppbr_az": {
+    "metric": "mae",
+    "reported_baseline_val": 9.965267432643829,
+    "baseline_val": 9.965267432643829,
+    "baseline_test": 7.892783164215503,
+    "agent_val": 9.728682036995984,
+    "agent_test": 7.758625559714047
+  },
+  "vdss_lombardo": {
+    "metric": "spearman",
+    "reported_baseline_val": 0.7155310871733217,
+    "baseline_val": 0.7155310871733217,
+    "baseline_test": 0.7119146006363818,
+    "agent_val": 0.7323749063532872,
+    "agent_test": 0.6820038628039308
+  },
+  "cyp2d6_veith": {
+    "metric": "pr-auc",
+    "reported_baseline_val": 0.6757592596050607,
+    "baseline_val": 0.6757592596050607,
+    "baseline_test": 0.7146255052070497,
+    "agent_val": 0.6968274207629507,
+    "agent_test": 0.7155508851986031
+  },
+  "cyp3a4_veith": {
+    "metric": "pr-auc",
+    "reported_baseline_val": 0.8577615801333023,
+    "baseline_val": 0.8577615801333023,
+    "baseline_test": 0.8764897093899303,
+    "agent_val": 0.8646037419904073,
+    "agent_test": 0.8742344045965718
+  },
+  "cyp2c9_veith": {
+    "metric": "pr-auc",
+    "reported_baseline_val": 0.7954188309541657,
+    "baseline_val": 0.7954188309541657,
+    "baseline_test": 0.7764338614066244,
+    "agent_val": 0.7967159444980407,
+    "agent_test": 0.7838089917817316
+  },
+  "cyp2d6_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "reported_baseline_val": 0.5850864736145593,
+    "baseline_val": 0.5850864736145593,
+    "baseline_test": 0.7075925330234666,
+    "agent_val": 0.6152495834034993,
+    "agent_test": 0.705177062156472
+  },
+  "cyp3a4_substrate_carbonmangels": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.6286713286713288,
+    "baseline_val": 0.6286713286713288,
+    "baseline_test": 0.6517857142857143,
+    "agent_val": 0.6811188811188811,
+    "agent_test": 0.6443264014466547
+  },
+  "cyp2c9_substrate_carbonmangels": {
+    "metric": "pr-auc",
+    "reported_baseline_val": 0.4078893179104411,
+    "baseline_val": 0.4078893179104411,
+    "baseline_test": 0.3728941851963211,
+    "agent_val": 0.4374938698705578,
+    "agent_test": 0.38391349937538244
+  },
+  "half_life_obach": {
+    "metric": "spearman",
+    "reported_baseline_val": 0.39635059779751536,
+    "baseline_val": 0.39635059779751536,
+    "baseline_test": 0.5189424227351408,
+    "agent_val": 0.41045036478208613,
+    "agent_test": 0.5365744526932036
+  },
+  "clearance_microsome_az": {
+    "metric": "spearman",
+    "reported_baseline_val": 0.6398789125760719,
+    "baseline_val": 0.6398789125760719,
+    "baseline_test": 0.6251750909143624,
+    "agent_val": 0.6898286941922613,
+    "agent_test": 0.5777538665782814
+  },
+  "clearance_hepatocyte_az": {
+    "metric": "spearman",
+    "reported_baseline_val": 0.558496253507738,
+    "baseline_val": 0.558496253507738,
+    "baseline_test": 0.4517131136014379,
+    "agent_val": 0.5952588559208961,
+    "agent_test": 0.4388787543737349
+  },
+  "herg": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.849112426035503,
+    "baseline_val": 0.849112426035503,
+    "baseline_test": 0.8861561119293078,
+    "agent_val": 0.8538461538461539,
+    "agent_test": 0.8832106038291606
+  },
+  "ames": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.7944295567879947,
+    "baseline_val": 0.7944295567879947,
+    "baseline_test": 0.844024750827312,
+    "agent_val": 0.8119226825744513,
+    "agent_test": 0.847659049521236
+  },
+  "dili": {
+    "metric": "roc-auc",
+    "reported_baseline_val": 0.8621700879765396,
+    "baseline_val": 0.8621700879765396,
+    "baseline_test": 0.8404347826086956,
+    "agent_val": 0.8907624633431086,
+    "agent_test": 0.8826086956521738
+  },
+  "ld50_zhu": {
+    "metric": "mae",
+    "reported_baseline_val": 0.46387010337859474,
+    "baseline_val": 0.46387010337859474,
+    "baseline_test": 0.6100438074470923,
+    "agent_val": 0.45527555355024735,
+    "agent_test": 0.5726297637864693
+  }
+}
