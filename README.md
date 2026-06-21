@@ -93,9 +93,16 @@ third-party files. See [`data/README.md`](data/README.md).
 
 ## License
 
-- Code: Apache License 2.0 (see `LICENSE`).
-- Derived analysis tables and results: Creative Commons Attribution 4.0 (CC BY 4.0).
-- Third-party benchmark and source datasets retain their own licenses.
+This repository contains two kinds of material, licensed separately:
+
+- **Code** — the harness, task adapters, leakage-safe filter, and analysis scripts —
+  is released under the **Apache License 2.0** (see [`LICENSE`](LICENSE)).
+- **Data artifacts produced by this work** — harness traces, curated
+  external-evidence accept/reject records, run configurations, and derived analysis
+  tables and results — are released under **Creative Commons Attribution 4.0
+  (CC BY 4.0)**.
+- **Third-party benchmark and source datasets** are **not redistributed here** and
+  retain their original licenses; see [`data/README.md`](data/README.md).
 
 ## Citation
 
